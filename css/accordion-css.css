@@ -1,0 +1,97 @@
+/*learned to add accordion from the following website
+http://mraffael
+e.com/posts/2011/10/25/
+css-accordion-n
+o-javascript/ */
+head{
+  font-family:Arial, Helvetica, sans-serif;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url("https://i.imgur.com/AJnUaxh.gif");
+}
+.accordion {
+font-family:Arial, Helvetica, sans-serif;
+margin:0 auto;
+font-size:14px;
+border:1px solid #542437;
+border-radius:10px;
+width:93%;
+padding:10px;
+background:#fff;
+}
+.accordion ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+.accordion li {
+margin:0;
+padding:0;
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+display:none;
+}
+.accordion label {
+display:block;
+font-size:16px;
+line-height:16px;
+background:darkblue;
+border:1px solid #542437;
+color:yellow;
+text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+font-weight:700;
+cursor:pointer;
+/*text-transform:uppercase;*/
+-webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+}
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+background:lightseagreen;
+color:black;
+text-shadow:1px 1px 1px rgba(0,0,0,0.5)
+}
+.accordion .content {
+padding:0 2%;/*padding of the unordered list inside the accordion content*/
+overflow:hidden;
+border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+-webkit-transition: all .5s ease-out;
+-moz-transition: all .5s ease-out;
+}
+.accordion p {
+color:#333;
+margin:0 0 10px;
+}
+.accordion h3 {
+color:#542437;
+padding:0;
+margin:10px 0;
+}
+
+
+/* Vertical */
+.vertical ul li {
+/*overflow:hidden;*/
+margin:0 0 1px;
+
+}
+.vertical ul li label {
+padding:10px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+border-bottom:0;
+}
+.vertical ul li label:hover {
+border:1px solid #542437; /* We don't want the border to disappear on hover */
+}
+.vertical ul li .content {
+height:0px;
+border-top:0;
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+height:auto;/*originally 300px, but modified to auto to allow for unlimited content*/
+border:1px solid #542437;
+columns: 3;
+-webkit-columns: 3;
+-moz-columns: 3;
+}
