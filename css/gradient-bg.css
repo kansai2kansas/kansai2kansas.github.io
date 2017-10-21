@@ -1,8 +1,20 @@
+html {//somehow it needs this html tag to stretch the bgcolor to the whole page,
+  //maybe bcoz it has less content? I don't know
+   margin: 0px;
+   height: 100%;
+}
+
 body {
 margin: 5%;
 min-height: 100%;
-background-color: #B1D7FD;
-background: -webkit-linear-gradient(bottom, #B1D7FD 0%, #FFFFFF 100%);
-background: linear-gradient(to top, #B1D7FD 0%, #FFFFFF 100%);
+background-color: #F7E3DA;
+background: -webkit-linear-gradient(top, #F7E3DA 0%, #FFFFFF 100%);
+background: linear-gradient(to bottom, #F7E3DA 0%, #FFFFFF 100%);
 background-repeat: no-repeat
 }
+
+/*
+#B1D7FD
+
+#1ABC9C
+*/
