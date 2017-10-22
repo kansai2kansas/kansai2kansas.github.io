@@ -9,6 +9,7 @@ body {
 https://i.imgur.com/qCKgsvJ.png
 */
 margin: 5%;
+line-height: 1.75;/*can also be written as 175%*/
 background-image: url("https://i.imgur.com/b262vsS.png");
 background-repeat: repeat;
 }
