@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+  <link rel="stylesheet" href="??????????">   <!--INSERT YOUR OWN CSS FILE HERE-->
+  <link rel="icon" href="icon.png">
+  <meta charset="UTF-8">
+    <title>Andrikus</title>
+    <meta name="description" content=" ">
+  </head>
+  <body>
+    <p>.</p>
+  </body>
+  <footer style="text-align: center;"><small><small>&copy; <script type="text/javascript">
+    document.write(new Date().getFullYear());
+  </script> Thomas Andrikus</small></small></footer>
+</html>

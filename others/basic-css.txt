@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+html {//somehow it needs this html tag to stretch the bgcolor to the whole page,
+  //maybe bcoz it has less content? I don't know
+
+   margin: 0px;
+   height: 100%;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+body {
+font-family: 'Arimo', Helvetica, sans-serif;
+}
