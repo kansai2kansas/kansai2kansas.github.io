@@ -4,6 +4,11 @@ html {//somehow it needs this html tag to stretch the bgcolor to the whole page,
    height: 100%;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 body {
 margin: 5%;
 min-height: 100%;

@@ -12,6 +12,12 @@ body{
   /*font-family:Arial, Helvetica, sans-serif;*/
   background-image: url("https://i.imgur.com/AJnUaxh.gif");
 }
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 .accordion {
 font-family:Arial, Helvetica, sans-serif;
 margin:0 auto;
