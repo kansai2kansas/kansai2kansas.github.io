@@ -21,6 +21,15 @@ background: linear-gradient(to bottom, #F7E3DA 0%, #FFFFFF 100%);
 background-repeat: no-repeat
 }
 
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
 /*
 #B1D7FD
 
