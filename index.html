@@ -103,14 +103,28 @@ body {
   display: block;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px; float: none;}
-  .sidenav a {font-size: 18px;}
-  .content {float:none}
-}
 .content {
   float: left;
 }
+
+/*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px; float: none;}
+  .sidenav a {font-size: 18px;}
+  .content {float:none}
+}*/
+
+
+
+@media screen and (max-width: 1075px) {
+
+    .page {
+        max-width:65%;
+        /*float: none;*/ /* ADDED */
+    }
+
+
+}
+
 </style>
     <link rel="stylesheet" href="css/soft-bg.css">
     <link rel="icon" href="icon.png">
@@ -118,7 +132,7 @@ body {
 
     <title>Thomas Andrikus</title>
     <meta name="description" content="unique insights, uncommon perspectives and simple truths of a 27-year-old Asian American">
-    <meta name=viewport content='width=700'><!-- for mobile friendliness-->
+
 </head>
 
 
