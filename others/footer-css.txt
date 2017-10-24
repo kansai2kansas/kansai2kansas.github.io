@@ -1,0 +1,19 @@
+footer {
+  position: relative;
+  margin-top: -100%; /*can also be written as -180px*/
+  /* negative value of footer height */
+  height: 1px;
+  clear: both;
+}
+
+
+OR CAN ALSO USE THE FOLLOWING:
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
