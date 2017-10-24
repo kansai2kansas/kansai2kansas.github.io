@@ -2,6 +2,9 @@
 <html lang="id">
 
 <head>
+  <link href='https://fonts.googleapis.com/css?family=Monsterrat' rel='stylesheet'>
+
+  <link rel="stylesheet" href="css/sidenav.css">
     <link rel="icon" href="icon.png">
     <meta charset="UTF-8">
     <!--previous bg color was linen-->
@@ -13,6 +16,7 @@ html {//somehow it needs this html tag to stretch the bgcolor to the whole page,
 }
 
         body {
+          font-family: 'Monsterrat', Helvetica, sans-serif;
           margin: 5%;
         background-image: url("https://i.imgur.com/AJnUaxh.gif");
         background-repeat: repeat;
@@ -35,24 +39,42 @@ footer {
     <meta name="description" content="Di sini kamu bisa mencari tahu mengenai Thomas Andrikus!">
 </head>
 
-<body style="text-align: center;">
+<body>
+
+  <div class='page'>
+    <div class="sidenav">
+  <a href="#">biodata</a>
+  <a href="tv.html">acara teve (EN)</a>
+  <a href="links.html">pranala pribadi (EN)</a>
+  <a href="http://wolpy.com/thomas/map">tempat terkunjungi</a></li>
+  <div class="dropdown" onclick="void(0)">
+    <!-- The ONCLICK="" means hover on Mobile
+  Adding "void(0)" helps to obtain the undefined primitive value, as opposed to ""-->
+  <div class="dropbtn">bahasa lainnya
+
+  <div class="dropdown-content">
+  <a href="index.html">English</a>
+  <a href="index-ja.html">日本語</a>
+  </div>
+  </div>
+  </div>
+  </div>
+    <div class='content'>
 
 
-    <h1>Selamat Datang di situs milik Thomas Andrikus!</h1>
+    <h1>Thomas Andrikus</h1>
 
-    <p>Nama saya Thomas Andrikus, dan saya tinggal di <a href ="https://id.wikipedia.org/wiki/Kentucky">Kentucky</a> bagian utara.</p>
+    <p>Halo, nama saya Thomas.</p>
 
-    <div align = "left">
-
-    <h2>Dalam bahasa lain:</h2>
-    <ul style="list-style-type:square">
-      <li><a href="index.html">English</a></li>
-      <li><a href="index-ja.html">日本語</a></li>
-    </div>
+    
 
 </body>
 <footer style="text-align: center;"><small><small>&copy; <script type="text/javascript">
   document.write(new Date().getFullYear());
 </script> Thomas Andrikus</small></small></footer>
+
+</div>
+
+  </div>
 
 </html>

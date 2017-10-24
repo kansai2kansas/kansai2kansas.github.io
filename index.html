@@ -9,142 +9,8 @@ body {
 }
 </style>-->
 
-<style>
-
-
-.page {
-  width: 888px;
-  margin: 0 auto;
-}
-
-.sidenav {
-  color: blue;
-  float: left;
-    height: 100%;
-    width: 15%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    /* background-color: #111; */
-    overflow-x: hidden;
-    padding-top: 100px;
-}
-
-.sidenav a {
-    padding: 6px 6px 6px 33px;
-    text-decoration: none;
-    font-size: 18px;
-    color: blue;
-    /* color: #818181; */
-    display: block;
-}
-
-.sidenav a:hover {
-    color: red;
-}
-
-.main {
-    margin-left: 15%; /* Same as the width of the sidenav */
-}
-
-/* The dropdown container */
-.dropdown {
-
-  float: left;
-
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  color: blue;
-  padding: 6px 6px 6px 33px;
-  text-decoration: none;
-  font-size: 18px;
-  background-color: transparent;
-  /* color: #818181; */
-  /*display: block;
-  background-color: inherit;*/
-}
-
-/* Add a red background color to navbar links on hover */
-.sidenav a:hover, .dropdown:hover .dropbtn {
-  color: red;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  /*background-color: #f9f9f9;*/
-  min-width: 160px;
-  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  font-size: 12px;
-  float: none;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  /*background-color: #ddd;*/
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.content {
-  float: left;
-}
-
-/*@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px; float: none;}
-  .sidenav a {font-size: 18px;}
-  .content {float:none}
-}*/
-
-
-
-@media screen and (max-width: 1075px) {
-
-    .page {
-        max-width:65%;
-        position: static;
-        font-size: 20px;
-        /*float: none;*/ /* ADDED */
-    }
-    .sidenav a{
-      font-size: 22px;
-    }
-
-    .dropdown .dropbtn{
-      font-size: 22px;
-    }
-
-    .dropdown-content a{
-      font-size: 16px;
-    }
-
-/*
-.dropdown-content {
-    display: block !important;
-}*/
-
-
-}
-
-</style>
     <link rel="stylesheet" href="css/soft-bg.css">
+    <link rel="stylesheet" href="css/sidenav.css">
     <link rel="icon" href="icon.png">
     <meta charset="UTF-8">
 
@@ -156,17 +22,16 @@ body {
 
 <body style="text-align: left;">
 
-
-
       <div class='page'>
         <div class="sidenav">
-      <a href="#">About</a>
-      <a href="links.html">Links</a>
-      <a href="tv.html">TV shows I watch</a>
+      <a href="#">about</a>
+      <a href="links.html">links</a>
+      <a href="http://wolpy.com/thomas/map">places visited</a></li>
+      <a href="tv.html">tv shows I watch</a>
       <div class="dropdown" onclick="void(0)">
         <!-- The ONCLICK="" means hover on Mobile
       Adding "void(0)" helps to obtain the undefined primitive value, as opposed to ""-->
-    <div class="dropbtn">Other languages
+    <div class="dropbtn">other languages
 
 
     <div class="dropdown-content">
@@ -178,11 +43,7 @@ body {
     </div>
         <div class='content'>
 
-
     <h1>Thomas Andrikus</h1>
-
-
-
     <p>Hi there, my name is Thomas.
       <br/><br/>Resident of <a href ="https://en.wikipedia.org/wiki/Area_code_859">area code 859</a>.
       <br/>Born in Florida.
