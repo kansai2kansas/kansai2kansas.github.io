@@ -8,6 +8,109 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 </style>-->
+
+<style>
+
+
+.page {
+  width: 888px;
+  margin: 0 auto;
+}
+
+.sidenav {
+  color: blue;
+  float: left;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #111; */
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 33px;
+    text-decoration: none;
+    font-size: 18px;
+    color: blue;
+    /* color: #818181; */
+    display: block;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+.main {
+    margin-left: 15%; /* Same as the width of the sidenav */
+}
+
+/* The dropdown container */
+.dropdown {
+
+  float: left;
+
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  color: blue;
+  padding: 6px 6px 6px 33px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: transparent;
+  /* color: #818181; */
+  /*display: block;
+  background-color: inherit;*/
+}
+
+/* Add a red background color to navbar links on hover */
+.sidenav a:hover, .dropdown:hover .dropbtn {
+  color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color: #f9f9f9;*/
+  min-width: 160px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-size: 12px;
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  /*background-color: #ddd;*/
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.content {
+  float: left;
+}
+</style>
     <link rel="stylesheet" href="css/soft-bg.css">
     <link rel="icon" href="icon.png">
     <meta charset="UTF-8">
@@ -16,48 +119,64 @@ body {
     <meta name="description" content="unique insights, uncommon perspectives and simple truths of a 27-year-old Asian American">
 </head>
 
-<body style="text-align: center;">
+
+<body style="text-align: left;">
+
+
+
+      <div class='page'>
+        <div class="sidenav">
+      <a href="#">About</a>
+      <a href="links.html">Links</a>
+      <a href="tv.html">TV shows I watch</a>
+      <div class="dropdown">
+    <div class="dropbtn">Other languages
+
+
+    <div class="dropdown-content">
+      <a href="index-id.html">Bahasa Indonesia</a>
+      <a href="index-ja.html">日本語</a>
+      </div>
+    </div>
+  </div>
+    </div>
+        <div class='content'>
+
 
     <h1>Thomas Andrikus</h1>
 
-    <p>Hi there, my name is Thomas. <br/><a href="http://instagram.com/kansai2kansas">My four cats</a> live with me in <a href ="https://en.wikipedia.org/wiki/Area_code_859">area code 859</a>.
-    <br/>I spend most of my time working two <a href="https://www.linkedin.com/in/andrikus">part-time jobs</a>.<br/>
-    On my spare time, I <a href="https://github.com/kansai2kansas">code</a>, <a href="study-ja.html">learn Japanese</a>, <a href="https://www.goodreads.com/user/show/1918609-thomas-andrikus">read books</a>,
-    or <a href="tv.html">stream TV shows</a>.
+
+
+    <p>Hi there, my name is Thomas.
+      <br/><br/>Resident of <a href ="https://en.wikipedia.org/wiki/Area_code_859">area code 859</a>.
+      <br/>Born in Florida.
+      <br/>Raised in Indonesia.
+      <br/>Alumnus of <a href="https://www.nku.edu/">Northern Kentucky University</a>.
+      <br/>Fluent in Indonesian, near-fluent in Malay, and somewhat conversational in French.
+      <br/>Currently <a href="study-ja.html">learning Japanese</a>.
+    <br/>Now working two <a href="https://www.linkedin.com/in/andrikus">part-time jobs</a>.
+    <br/><br/>
+    During my spare time, I do the following stuff:<ul>
+      <li><a href="https://github.com/kansai2kansas">code</a>,</li>
+      <li><a href="https://www.goodreads.com/user/show/1918609-thomas-andrikus">read books</a>,</li>
+      <li><a href="http://www.imdb.com/user/ur7187048/">watch movies</a>, or</li>
+      <li><a href="http://instagram.com/kansai2kansas">play with my four cats</a>.</li>
+    </ul>
     <br/>Say hi on Twitter <a href="https://twitter.com/kansai2kansas">@kansai2kansas</a></p>
 
-<div align = "left">
 
-<h2>you can <del>stalk</del>  locate me elsewhere on the following links...</h2>
-<ul style="list-style-type:disc">
-  <li><a href="https://about.me/andrikus">About.Me</a> - short bio</li>
-  <li><a href="http://www.atlasobscura.com/users/andrikus">AtlasObscura</a> - unique places visited around the world</li>
-  <li><a href="http://foreignprophecies.blogspot.com/">Blogger</a> - personal blog (rarely updated)</li>
-  <li><a href="https://del.icio.us/kansai2kansas">del.icio.us</a> - link collections</li>
-  <li><a href="http://donateaphoto.com/profile/thomas">Donate-A-Photo</a> - philantropic cotributions</li>
-  <li><a href="https://www.duolingo.com/andrikus">Duolingo</a></li>
-  <li><a href="http://followmy.tv/u/kansai2kansas">Followmy.TV</a> - television series rated</li>
-  <li><a href="https://forvo.com/user/kansai2kansas/">Forvo</a> - pronunciation guide</li>
-  <li><a href="http://www.imdb.com/user/ur7187048/">IMDB</a> - film ratings</li>
-  <li><a href="https://www.memrise.com/user/ThomasAndrikus/">Memrise</a></li>
-  <li><a href="http://www.picato.net/member/andrikus">Picato</a> - personal cat picture collection</li>
-  <li><a href="https://www.reddit.com/user/kansai2kansas/">Reddit</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/User:Kansai2kansas">Wikipedia</a> - wiki user page</li>
-  <li><a href="http://wolpy.com/thomas">Wolpy</a> - map of places visited around the world</li>
-  <li><a href="https://www.youtube.com/channel/UCffnXocfYotcrfusIiGz69g">Youtube</a> - personal videos</li>
-</ul>
 
-<h2>also, you can browse this site in other languages...</h2>
-<ul style="list-style-type:square">
-  <li><a href="index-id.html">Bahasa Indonesia</a></li>
-  <li><a href="index-ja.html">日本語</a></li>
-</ul>
-</div>
-
-</body>
 <footer style="text-align: center;"><small><small>&copy; <script type="text/javascript">
   document.write(new Date().getFullYear());
 </script> Thomas Andrikus</small></small></footer>
+
+</div>
+
+  </div>
+
+
+</body>
+
 
 
 </html>

@@ -22,7 +22,7 @@ background-repeat: no-repeat
 }
 
 footer {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
