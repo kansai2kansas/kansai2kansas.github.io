@@ -168,7 +168,9 @@ body {
       <a href="#">About</a>
       <a href="links.html">Links</a>
       <a href="tv.html">TV shows I watch</a>
-      <div class="dropdown mm"><!-- The ONCLICK="" means hover on Mobile-->
+      <div class="dropdown" onclick="void(0)">
+        <!-- The ONCLICK="" means hover on Mobile
+      Adding "void(0)" helps to obtain the undefined primitive value, as opposed to ""-->
     <div class="dropbtn">Other languages
 
 
