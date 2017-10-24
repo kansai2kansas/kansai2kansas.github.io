@@ -28,11 +28,10 @@ color: midnightblue;
 
 footer {
   position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
+  margin-top: -100%;
+  /* negative value of footer height */
+  height: 1px;
+  clear: both;
 }
 
 /* background-color: rgb(192,216,144)  */

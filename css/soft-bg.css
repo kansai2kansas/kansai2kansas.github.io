@@ -40,10 +40,9 @@ del:after {
 }
 
 footer {
-  position: relative; <!-- supposed to be absolute, but somehow it only works with relative here -->
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
+  position: relative;
+  margin-top: -100%; /*can also be written as -180px*/
+  /* negative value of footer height */
+  height: 1px;
+  clear: both;
 }

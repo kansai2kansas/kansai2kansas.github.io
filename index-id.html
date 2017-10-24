@@ -26,12 +26,11 @@ h1 {
 }
 
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
+  position: relative;
+  margin-top: -100%;
+  /* negative value of footer height */
+  height: 1px;
+  clear: both;
 }
 
 </style>
@@ -46,7 +45,7 @@ footer {
   <a href="#">biodata</a>
   <a href="tv.html">acara teve (EN)</a>
   <a href="links.html">pranala pribadi (EN)</a>
-  <a href="http://wolpy.com/thomas/map">tempat terkunjungi</a></li>
+  <a href="map.html">peta kunjungan (EN)</a></li>
   <div class="dropdown" onclick="void(0)">
     <!-- The ONCLICK="" means hover on Mobile
   Adding "void(0)" helps to obtain the undefined primitive value, as opposed to ""-->
@@ -66,15 +65,16 @@ footer {
 
     <p>Halo, nama saya Thomas.</p>
 
-    
 
-</body>
-<footer style="text-align: center;"><small><small>&copy; <script type="text/javascript">
-  document.write(new Date().getFullYear());
-</script> Thomas Andrikus</small></small></footer>
-
-</div>
 
   </div>
+
+  <footer style="text-align: center;"><small><small>&copy; <script type="text/javascript">
+    document.write(new Date().getFullYear());
+  </script> Thomas Andrikus</small></small></footer>
+  </body>
+  </div>
+
+</body>
 
 </html>
