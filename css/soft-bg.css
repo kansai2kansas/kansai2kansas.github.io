@@ -40,7 +40,7 @@ del:after {
 }
 
 footer {
-  position: absolute;
+  position: relative; <!-- supposed to be absolute, but somehow it only works with relative here -->
   right: 0;
   bottom: 0;
   left: 0;
