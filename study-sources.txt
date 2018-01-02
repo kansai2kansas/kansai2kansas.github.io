@@ -1,0 +1,14 @@
+~~ Programming languages ~~
+Bash
+
+SQL
+https://www.reddit.com/r/SQL/
+https://www.sqlteaching.com/
+https://sqlbolt.com/
+
+~~ Declarative/Markup languages ~~
+
+
+
+~~ Other skills ~~
+V
