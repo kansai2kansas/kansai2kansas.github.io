@@ -1,8 +1,10 @@
-~~ Programming languages ~~
-Bash (Shell script)
+~~ Programming languages (A-M) ~~
+Bash (Shell script) + VIM
+https://www.reddit.com/r/bash/
 https://www.youtube.com/watch?v=hwrnmQumtPw
 http://www.newthinktank.com/2016/06/shell-scripting-tutorial/
 
+~~ Programming languages (N-Z) ~~
 
 
 ~~ Non-programming (Declarative/Markup) languages ~~
@@ -17,3 +19,12 @@ API
 Json
 Ajax
 XML
+
+~~ Multilingual study websites ~~
+https://freecodecamp.org/
+
+
+~~ Coding competition ~~
+
+
+~~ Job search white paper practice ~~
