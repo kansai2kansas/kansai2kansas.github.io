@@ -1,14 +1,19 @@
 ~~ Programming languages ~~
-Bash
+Bash (Shell script)
+https://www.youtube.com/watch?v=hwrnmQumtPw
+http://www.newthinktank.com/2016/06/shell-scripting-tutorial/
 
+
+
+~~ Non-programming (Declarative/Markup) languages ~~
 SQL
 https://www.reddit.com/r/SQL/
 https://www.sqlteaching.com/
 https://sqlbolt.com/
 
-~~ Declarative/Markup languages ~~
-
-
 
 ~~ Other skills ~~
-V
+API
+Json
+Ajax
+XML
