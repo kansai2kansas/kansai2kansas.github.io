@@ -1,7 +1,11 @@
 GENERAL LINKS
 
 ~~ Other skills ~~
-API
+Data Structures & Algorithms
+Character Encodings
+APIs
+SSH
+
 Json
 Ajax
 XML
@@ -15,7 +19,7 @@ https://coderbyte.com/
 https://hackerrank.com
 
 ~~ General advice/tips from forums~~
-
+https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md
 
 
 ~~ Universal coding skills ~~
