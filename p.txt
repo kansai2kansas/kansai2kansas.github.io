@@ -23,7 +23,8 @@ C++
 
 
 ~~ Programming languages (N-Z) ~~
-
+Python
+https://www.reddit.com/r/learnprogramming/comments/7owpwx/list_of_python_learning_sites/
 
 ~~ Non-programming (Declarative/Markup) languages ~~
 SQL
