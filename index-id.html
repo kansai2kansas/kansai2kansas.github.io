@@ -1,69 +1,123 @@
 <!DOCTYPE html>
-<html lang="id">
 
-<head>
-  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+<html>
+    <head>
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="css/sandbox.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <link rel="stylesheet" href="css/sidenav.css">
-    <link rel="icon" href="icon.png">
-    <meta charset="UTF-8">
-    <!--previous bg color was linen-->
-    <style>
-html {//somehow it needs this html tag to stretch the bgcolor to the whole page,
-  //maybe bcoz it has less content? I don't know
-   margin: 0px;
-   height: 100%;
-}
+        <title>Thomas Andrikus</title>
+        <meta name="description" content="Di sini kamu bisa mencari tahu mengenai Thomas Andrikus!">
 
-        body {
-          font-family: 'Arimo', Helvetica, sans-serif;
-          margin: 5%;
-        background-image: url("https://i.imgur.com/AJnUaxh.gif");
-        background-repeat: repeat;
-    }
-h1 {
-    color: maroon;
-}
-</style>
-    <title>Thomas Andrikus</title>
-    <meta name="description" content="Di sini kamu bisa mencari tahu mengenai Thomas Andrikus!">
-</head>
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<body>
-
-  <div class='page'>
-    <div class="sidenav">
-  <a href="#">biodata</a>
-  <a href="tv.html">acara teve (EN)</a>
-  <a href="links.html">pranala pribadi (EN)</a>
-  <a href="map.html">peta kunjungan (EN)</a></li>
-  <div class="dropdown" onclick="void(0)">
-    <!-- The ONCLICK="" means hover on Mobile
-  Adding "void(0)" helps to obtain the undefined primitive value, as opposed to ""-->
-  <div class="dropbtn">bahasa lainnya
-
-  <div class="dropdown-content">
-  <a href="index.html">English</a>
-  <a href="index-ja.html">日本語</a>
-  </div>
-  </div>
-  </div>
-  </div>
-    <div class='content'>
-
-
-    <h1>Thomas Andrikus</h1>
-
-    <p>Halo, nama saya Thomas.</p>
+    </head>
+    <body>
 
 
 
-  </div>
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>Selamat Datang!</h3>
+                </div>
 
+                <ul class="list-unstyled components">
+                    <p>pranala saya...</p>
+                    <li class="active">
+                        <a href="#">tentang saya</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">bahasa lain</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li><a href="index">English</a></li>
+                            <li><a href="index-ja">日本語</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="links.html">pranala (EN)</a>
+                    </li>
+                    <li>
+                        <a href="map.html">tempat dikunjungi (EN)</a>
+                    </li>
+                    <li>
+                        <a href="tv.html">acara teve tontonan (EN)</a>
+                    </li>
 
-  </body>
-  </div>
+                </ul>
 
-</body>
+                <ul class="list-unstyled CTAs">
+                  <li><a href="https://instagram.com/kansai2kansas" class="article"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://www.quora.com/profile/Thomas-Andrikus" class="article"><i class="fa fa-quora"></i></a></li>
+                  <li><a href="https://www.reddit.com/user/kansai2kansas/" class="article"><i class="fa fa-reddit"></i></a></li>
+                  <li><a href="https://twitter.com/kansai2kansas" class="article"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.youtube.com/user/kansai2kansas" class="article"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </nav>
 
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>links</span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">English</a></li>
+                                <li><a href="index-ja.html">日本語</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <h1>Thomas Andrikus</h1>
+                <p>Halo, nama saya Thomas.
+                  <br/><br/>Saya tinggal di <a href ="https://id.wikipedia.org/wiki/Kentucky">Kentucky</a> utara.
+                  <br/>Tempat lahir saya di Florida.
+                  <br/>Dibesarkan di Indonesia.
+                  <br/>Alma mater saya <a href="https://www.nku.edu/">Universitas Kentucky Utara</a>.
+                  <br/>Fasih dalam bahasa Indonesia, hampir fasih dalam bahasa Melayu, dan lumayan lancar dalam bahasa Perancis.
+                  <br/>Kini <a href="study-ja.html">sedang belajar bahasa Jepang</a>.
+                <br/>Sekarang saya bekerja <a href="https://www.linkedin.com/in/andrikus">paruh-waktu</a>.
+                <br/><br/>
+                Dalam waktu luang, saya lakukan hal-hal berikut:<ul>
+                  <li><a href="https://github.com/kansai2kansas">mengetik kode</a>,</li>
+                  <li><a href="https://www.goodreads.com/user/show/1918609-thomas-andrikus">membaca buku</a>,</li>
+                  <li><a href="http://www.imdb.com/user/ur7187048/">menonton filem</a>, atau</li>
+                  <li><a href="http://instagram.com/kansai2kansas">bermain dengan para kucing saya</a>.</li>
+                </ul>
+                <br/>Jangan sungkan untuk sapa saya di Twitter <a href="https://twitter.com/kansai2kansas">@kansai2kansas</a></p>
+
+                <div class="line"></div>
+
+                <p style="font-size: 0.6em;"><a href="https://bootstrapious.com/p/bootstrap-sidebar">Bootstrap template</a> was made by <a href="https://twitter.com/bootstrapious">Ondrej</a>, and <span title="Thomas Andrikus">I</span> have slightly modified it for my personal website </p>
+        </div>
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+    </body>
+    <!--Bootstrap template was made by Ondrej at https://bootstrapious.com/p/bootstrap-sidebar,
+    I (Thomas Andrikus) slightly modified it to fit the needs of my personal website -->
 </html>
