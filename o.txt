@@ -18,8 +18,14 @@ https://freecodecamp.org/
 https://coderbyte.com/
 https://hackerrank.com
 
-~~ General advice/tips from forums~~
+~~ General advice/tips from forums, with paths to mastery in different CS areas ~~
 https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md
+https://github.com/bulutyazilim/awesome-datascience
+https://github.com/anu0012/awesome-computer-science-opportunities
+https://github.com/P1xt/p1xt-guides
+https://github.com/P1xt/speedstudy
+https://is.gd/SPeQEJ                         (link leads to a Reddit thread, for Data Science/Analytics path)
+
 
 
 ~~ Universal coding skills ~~
