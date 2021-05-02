@@ -33,6 +33,12 @@ h1{/*to ensure that the text can't be selected by user*/
     user-select: none; /* Standard syntax */
 }
 
+#indexpage{/*to ensure that the indexpage can't be selected by user*/
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
 h1.light{
     opacity: 0.5;
     font-size:95%;
