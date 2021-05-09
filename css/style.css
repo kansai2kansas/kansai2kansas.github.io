@@ -1,6 +1,7 @@
 :root{/*Default settings are here and will always be followed unless overwritten*/
 	font:normal 0.9em 'Roboto', Arial, sans-serif;/*font-weight, -size, and -family combined*/
-	background-color:Gainsboro;/*#DCDCDC*/
+	/*background-color:Gainsboro;/*#DCDCDC*/
+    background:linear-gradient(90deg, HoneyDew, Ivory, FloralWhite);
 }
 
 u{
