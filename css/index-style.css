@@ -62,7 +62,7 @@ section.container{
     /*background:rgba(255, 239, 213, 0.01);*/
     box-shadow:2px 2px 3px 0.1rem rgba(255, 239, 213, 0.5);  
     display: flex;
-    flex-direction:row;
+    flex-direction:row-reverse;
     /*flex-wrap:wrap; this does NOT work for some unknown reason*/
   align-items: center;
   text-align:center;
