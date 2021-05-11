@@ -3,17 +3,12 @@
   color:PapayaWhip;
   /*background-color:Gainsboro;/*#DCDCDC*/
     /*background:linear-gradient(90deg, HoneyDew, Ivory, FloralWhite);*/
-
-
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /*using the above @import as alternative to <link> inside html...will see if this is better option,
 because if it doesn't work, then I'd just switch back into using <link> inside HTML*/
 
-html{
-    overflow:hidden;/*research what this actually does, later*/
-}
 * {
   margin: 0;
   padding: 0;
@@ -25,79 +20,77 @@ a{
     font-weight:700;
 
 }
-u{
-    text-decoration-style:double;
-    text-decoration-color:OrangeRed;/*#FF4500*/
-}
-
-
-h1{/*to ensure that the text can't be selected by user*/
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-
-#indexpage{/*to ensure that the indexpage can't be selected by user*/
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-
 body{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    min-height:100vh;
-    width:100vw;
-    background:url(../images/bg-index-desktop.jpg) no-repeat center center fixed;
-    /*Free-to-use image from https://unsplash.com/photos/IDDeGAwsnn8*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position:absolute;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  width:100vw;
+ background-image: url(../images/bg-index-desktop.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position:center center;
+ background-size: cover;
 }
 
-
-
-
-section.container{
-    /*background:rgba(255, 239, 213, 0.01);*/
-    box-shadow:2px 2px 3px .1rem rgba(255, 239, 213, 0.33);  
-    display: flex;
+div.blurme{
+  display: flex;
     flex-direction:row-reverse;
-    /*flex-wrap:wrap; this does NOT work for some unknown reason*/
+    justify-content:space-around;
   align-items: center;
   text-align:center;
-  justify-content: space-around;
+  background:inherit;
   border-radius:12%;
-}
-
-
-.outside{
-    height:50vh;
+  position:relative;
   width:40vw;
-  z-index:1;
-  background:linear-gradient(222deg, rgba(245,255,250,.08), rgba(255,239,213, .1) 10%),
-             linear-gradient(135deg, rgba(255, 228, 255, .08), rgba(240, 255, 255, .12) 20%);
+  height:50vh;
+  /*border-solid*/
+  overflow:hidden;
 }
 
-.container1{
-    height:10vh;
-    width:10vw;
-    z-index:2;
+div.blurme:before{
+ content: "";
+ background: inherit; 
+ position: absolute;
+ left: -25px;  /*giving minus -25px left position*/
+ right: 0;
+ top: -25px;  /*giving minus -25px top position*/
+ bottom: 0;
+ box-shadow: inset 0 0 0 500px rgba(54,27,19,0.3);
+ filter: blur(10px);
 }
 
-.pressMe:hover {
-    transform:scale(1.05);
+div.buttonz{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:dashed;
+  border-radius:12%;
+  text-align:center;
+  height:10vh;
+  width:10vw;
+  position:relative;
+  overflow:hidden;
 }
 
-.pressMe:active {
+div.buttonz:hover{
+  transform:scale(1.08);
+}
+div.buttonz:active{
   box-shadow:2px 2px 5px 1px rgba(255, 239, 213, 0.9); 
   transform: translateY(4px);
 }
 
 
+
+
+/*DONT TOUCH THE BOTTOM SECTION YET*/
+
+
+/*DONT TOUCH THE BOTTOM SECTION YET*/
+/*DONT TOUCH THE BOTTOM SECTION YET*//*DONT TOUCH THE BOTTOM SECTION YET*/
+/*DONT TOUCH THE BOTTOM SECTION YET*//*DONT TOUCH THE BOTTOM SECTION YET*/
+/*DONT TOUCH THE BOTTOM SECTION YET*//*DONT TOUCH THE BOTTOM SECTION YET*/
 @media screen and (max-device-width: 450px) { 
   a{
     color:black;
