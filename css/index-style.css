@@ -144,11 +144,11 @@ div.buttonz{
   align-items:center;
   justify-content:center;
   border-style:dashed;
-  border-color:rgba(42, 63, 23, 0.25);
-  border-radius:10%;
+  border-color:rgba(42, 63, 23, 0.77);
+  border-radius:12%;
   text-align:center;
   height:10vh;
-  width:30vw;
+  width:40vw;
   position:relative;
   overflow:hidden;
 }
