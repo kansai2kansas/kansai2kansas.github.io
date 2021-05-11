@@ -27,6 +27,9 @@ body{
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position:center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
  background-size: cover;
 }
 
@@ -53,8 +56,8 @@ div.blurme:before{
  right: 0;
  top: -25px;  /*giving minus -25px top position*/
  bottom: 0;
- box-shadow: inset 0 0 0 500px rgba(105, 69, 53, 0.3);
- filter: blur(12px);
+ box-shadow: inset 0 0 0 500px rgba(105, 69, 53, 0.25);
+ filter: blur(8px);
 }
 
 div.buttonz{
@@ -90,35 +93,64 @@ div.buttonz:active{
 /*DONT TOUCH THE BOTTOM SECTION YET*//*DONT TOUCH THE BOTTOM SECTION YET*/
 /*DONT TOUCH THE BOTTOM SECTION YET*//*DONT TOUCH THE BOTTOM SECTION YET*/
 @media screen and (max-device-width: 450px) { 
-  a{
-    color:black;
-    text-decoration:none;
-    font-weight:700;
-}
-  body{
-        min-height:100vh;
-    width:100vw;
-    background:url(../images/bg-index-mobile.jpg) no-repeat center center fixed;
-    /*Free-to-use image from https://unsplash.com/photos/2wPkJRDMnBM  */
-      -webkit-background-size: cover;
+body{/*separate body here because mobile has different image*/
+  /*display:flex;
+  align-items:center;
+  justify-content:center;*/
+  min-height:100vh;
+  width:100vw;
+ background-image: url(../images/bg-index-mobile.jpg);
+ /*Free-to-use image from https://unsplash.com/photos/Siuwr3uCir0  */
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position:center center;
+       -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  position:absolute;
+ background-size: cover;
 }
 
-  section.container{
-    flex-direction:column;
-    font-size:100%;
-  }
-  .outside{
-    height:50vh;
-    width:60vw;
-  background:linear-gradient(222deg, rgba(245,255,250,.16), rgba(255,239,213, .1) 50%);
+div.blurme{
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items: center;
+  text-align:center;
+  background:inherit;
+  border-radius:12%;
+  position:relative;
+  font-size:100%;
+  width:60vw;
+  height:45vh;
+  overflow:hidden;
+  color:black;
 }
-  .container1{
-    height:15vh;
-    width:25vw;
+
+
+div.blurme:before{
+ content: "";
+ background: inherit; 
+ position: absolute;
+ left: -25px;  /*giving minus -25px left position*/
+ right: 0;
+ top: -25px;  /*giving minus -25px top position*/
+ bottom: 0;
+ box-shadow: inset 0 0 0 500px rgba(203, 217, 218, 0.25);
+ filter: blur(8px);
+}
+
+div.buttonz{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-style:dashed;
+  border-color:rgba(42, 63, 23, 0.25);
+  border-radius:10%;
+  text-align:center;
+  height:10vh;
+  width:30vw;
+  position:relative;
+  overflow:hidden;
 }
 
 }
