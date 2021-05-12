@@ -3,14 +3,14 @@
   color:rgb(244,226,197);/*conforms to color palette of background picture*/
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-/*using the above @import as alternative to <link> inside html...will see if this is better option,
-because if it doesn't work, then I'd just switch back into using <link> inside HTML*/
-
 * {
   margin: 0;
   padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*using the above @import as alternative to <link> inside html...will see if this is better option,
+because if it doesn't work, then I'd just switch back into using <link> inside HTML*/
 
 a{
     color:inherit;
@@ -44,7 +44,6 @@ div.blurme{
   position:relative;
   width:40vw;
   height:50vh;
-  /*border-solid*/
   overflow:hidden;
 }
 
@@ -84,27 +83,16 @@ div.buttonz:active{
 
 
 
-
-/*DONT TOUCH THE BOTTOM SECTION YET*/
-
-
-/*DONT TOUCH THE BOTTOM SECTION YET*/
-/*DONT TOUCH THE BOTTOM SECTION YET*//*DONT TOUCH THE BOTTOM SECTION YET*/
-/*DONT TOUCH THE BOTTOM SECTION YET*//*DONT TOUCH THE BOTTOM SECTION YET*/
-/*DONT TOUCH THE BOTTOM SECTION YET*//*DONT TOUCH THE BOTTOM SECTION YET*/
 @media screen and (max-device-width: 450px) { 
-body{/*separate body here because mobile has different image*/
-  /*display:flex;
-  align-items:center;
-  justify-content:center;*/
+body{/*put another body section here because mobile has different BG image*/
   min-height:100vh;
   width:100vw;
  background-image: url(../images/bg-index-mobile.jpg);
- /*Free-to-use image from https://unsplash.com/photos/Siuwr3uCir0  */
+ /*Gratis image from https://unsplash.com/photos/Siuwr3uCir0  */
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position:center center;
-       -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
  background-size: cover;
