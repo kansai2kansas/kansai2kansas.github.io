@@ -20,7 +20,9 @@
 
     <div class="image">
       <img class="resize" src="https://i.imgur.com/d8fxrFs.jpg" alt="error" />
-      <a href="#" style="top: 32%; left: 15%; width: 5%; height: 7%;" onclick="history.go(-1)"></a>
+      <!--<a href="javascript:history.back()">Go Back</a>-->
+      <a href="javascript:history.back()" style="top: 32%; left: 15%; width: 5%; height: 7%;"></a>
+      <!--<a href="#" style="top: 32%; left: 15%; width: 5%; height: 7%;" onclick="history.go(-1)"></a>-->
     </div>
   <footer style="text-align: center;"><small><small>&copy; <script type="text/javascript">
     document.write(new Date().getFullYear());
